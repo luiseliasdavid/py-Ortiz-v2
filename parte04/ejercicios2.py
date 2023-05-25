@@ -1,0 +1,7 @@
+
+
+STRANGE_STRING = '&'
+
+STRANGE_STRING=STRANGE_STRING.upper().lower()
+
+print(STRANGE_STRING)
