@@ -1,3 +1,6 @@
+import inspect
+
+
 class MiClase:
     def __init__(self, parametro_publico, parametro_privado):
         self.parametro_publico = parametro_publico
