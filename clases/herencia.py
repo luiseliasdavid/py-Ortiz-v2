@@ -11,8 +11,8 @@ class Producto(OtraClase):
         self.nombre = nombre
 
 class Alimento(Producto):
-    def __init__(self, nombre, parametro, vencimiento):
-        super().__init__(nombre, parametro)
+    def __init__(self, parametro, nombre, vencimiento):
+        super().__init__(parametro,nombre)
         self.vencimiento = vencimiento
 
 alimento1 = Alimento("Manzana", "Parámetro", "2023-05-30")
