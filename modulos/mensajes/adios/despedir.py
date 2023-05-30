@@ -7,5 +7,5 @@ class Desapedida:
         print("adios desde Despedida init")
 
 
-if __name__=="__main__":
-   despedida()
+if __name__ == "__main__":
+    despedida()

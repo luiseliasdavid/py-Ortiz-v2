@@ -7,6 +7,5 @@ class Saludo:
         print("hola saludos desde saludo init")
 
 
-if __name__=="__main__":
-   saludos()
-
+if __name__ == "__main__":
+    saludos()
