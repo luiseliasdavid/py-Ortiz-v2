@@ -1,8 +1,10 @@
 import tkinter as tk
+from tkinter import Frame
 from mi_modulo import crear_boton
-
 # Crear la ventana
 ventana = tk.Tk()
+
+frame = Frame(ventana, width=480, height=320)
 
 # Configurar el título de la ventana
 ventana.title("Ejemplo de Tkinter")
