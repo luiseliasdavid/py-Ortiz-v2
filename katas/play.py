@@ -2,11 +2,10 @@
 #lista = ["a","b","c"]
 #lista = [2,4,6,7,8]
 a ="aretheyhere" 
-b= "yestheyarehere"
+#b= "yestheyarehere"
 
-def longest(a1, a2):
-    return "".join(sorted(list(set(a1+a2))))
+def remove_char(s):
+    return "".join(list(s)[1:-1])
     
 
-#print()
-print( longest(a,b) )
+print( remove_char(a) )
