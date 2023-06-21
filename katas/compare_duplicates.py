@@ -19,7 +19,7 @@ def duplicate_count(text):
         if i != text.index(x):
             dup.append(x)
     return len(set(dup))
-   # return [x.lower() for i,x in enumerate(text) if i!= text.index(x)]
+   
 
 
 print(duplicate_count("pC6qIdxlAWXzzqFOS4R03"))

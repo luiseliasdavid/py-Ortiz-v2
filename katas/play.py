@@ -1,8 +1,12 @@
 
-print("dadfadfdfAASSDD".lower().index("a"))
+#lista = ["a","b","c"]
+#lista = [2,4,6,7,8]
+a ="aretheyhere" 
+b= "yestheyarehere"
 
-text="hjgjhgjhgjh"
+def longest(a1, a2):
+    return "".join(sorted(list(set(a1+a2))))
+    
 
-text2= str("pC6qIdxlAWXzzqFOS4R03".lower())
-
-print(text2)
+#print()
+print( longest(a,b) )
